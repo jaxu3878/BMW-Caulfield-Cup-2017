@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Fonts */
+.height-fix {
+  height: 100vh; }
+
+#outer-wrapper {
+  background-color: #1562ca;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%; }
+  #outer-wrapper #inner-wrapper-fake {
+    padding-top: 50px;
+    background-color: #f7f7f7;
+    position: fixed; }
+    #outer-wrapper #inner-wrapper-fake .mobile-img {
+      display: none; }
+    #outer-wrapper #inner-wrapper-fake #top-content {
+      margin-left: 15px;
+      margin-right: 15px; }
+      #outer-wrapper #inner-wrapper-fake #top-content header #form-heading {
+        color: #fff;
+        padding-left: 0;
+        padding-right: 0;
+        opacity: 0; }
+        #outer-wrapper #inner-wrapper-fake #top-content header #form-heading #heading-contents {
+          padding: 20px;
+          background-color: #404145;
+          max-width: 80%; }
+          #outer-wrapper #inner-wrapper-fake #top-content header #form-heading #heading-contents h1 {
+            font-size: 27.17px;
+            font-family: "BMW Type Bold";
+            margin-top: 10px; }
+          #outer-wrapper #inner-wrapper-fake #top-content header #form-heading #heading-contents h2 {
+            font-size: 28.48px;
+            font-family: "Bodoni SVTYTWO ITC TT Book Ita"; }
+    #outer-wrapper #inner-wrapper-fake #main-content {
+      background-image: url("../images/grey-bg.png");
+      background-repeat: repeat-x;
+      background-position: 0px -100px;
+      background-size: 100% 600px;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: -30px;
+      margin-right: -30px;
+      position: relative; }
+      #outer-wrapper #inner-wrapper-fake #main-content .col-sm-6 {
+        padding-right: 0px;
+        padding-left: 45px; }
+        #outer-wrapper #inner-wrapper-fake #main-content .col-sm-6 #form {
+          padding: 20px;
+          background-color: #fff;
+          max-width: 80%; }
+          #outer-wrapper #inner-wrapper-fake #main-content .col-sm-6 #form p {
+            font-size: 16px;
+            font-family: "BMW Type Light"; }
+          #outer-wrapper #inner-wrapper-fake #main-content .col-sm-6 #form h1 {
+            font-size: 27.17px;
+            font-family: "BMW Type Bold";
+            margin-top: 10px; }
+          #outer-wrapper #inner-wrapper-fake #main-content .col-sm-6 #form h2 {
+            font-size: 28.48px;
+            font-family: "Bodoni SVTYTWO ITC TT Book Ita";
+            margin-bottom: 0; }
+          #outer-wrapper #inner-wrapper-fake #main-content .col-sm-6 #form hr {
+            border-color: #000;
+            margin-top: 10px;
+            margin-bottom: 20px; }
+          #outer-wrapper #inner-wrapper-fake #main-content .col-sm-6 #form input[type='text'],
+          #outer-wrapper #inner-wrapper-fake #main-content .col-sm-6 #form input[type='email'],
+          #outer-wrapper #inner-wrapper-fake #main-content .col-sm-6 #form select,
+          #outer-wrapper #inner-wrapper-fake #main-content .col-sm-6 #form textarea {
+            border-radius: 0;
+            font-family: "BMW Type Light"; }
+          #outer-wrapper #inner-wrapper-fake #main-content .col-sm-6 #form .btn-primary {
+            background-color: #1d69d4;
+            border-radius: 0;
+            width: 100%;
+            font-size: 16px;
+            font-family: "BMW Type Bold"; }
+          #outer-wrapper #inner-wrapper-fake #main-content .col-sm-6 #form .error {
+            color: #f00 !important;
+            font-style: italic !important;
+            font-weight: normal !important;
+            font-size: 12px !important; }
+      #outer-wrapper #inner-wrapper-fake #main-content #hero img {
+        width: 606px;
+        height: auto;
+        position: relative;
+        top: -100px;
+        right: 0; }
+  #outer-wrapper #inner-wrapper-real {
+    padding-top: 50px;
+    background-color: transparent; }
+    #outer-wrapper #inner-wrapper-real .mobile-img {
+      display: none; }
+    #outer-wrapper #inner-wrapper-real #top-content {
+      margin-left: 15px;
+      margin-right: 15px; }
+      #outer-wrapper #inner-wrapper-real #top-content .desktop-img {
+        opacity: 0; }
+      #outer-wrapper #inner-wrapper-real #top-content header #form-heading {
+        color: #fff;
+        padding-left: 0;
+        padding-right: 0; }
+        #outer-wrapper #inner-wrapper-real #top-content header #form-heading #heading-contents {
+          padding: 20px;
+          background-color: #404145;
+          max-width: 80%; }
+          #outer-wrapper #inner-wrapper-real #top-content header #form-heading #heading-contents h1 {
+            font-size: 27.17px;
+            font-family: "BMW Type Bold";
+            margin-top: 10px; }
+          #outer-wrapper #inner-wrapper-real #top-content header #form-heading #heading-contents h2 {
+            font-size: 28.48px;
+            font-family: "Bodoni SVTYTWO ITC TT Book Ita"; }
+    #outer-wrapper #inner-wrapper-real #main-content {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: -30px;
+      margin-right: -30px;
+      position: relative; }
+      #outer-wrapper #inner-wrapper-real #main-content .col-sm-6 {
+        padding-right: 0px;
+        padding-left: 45px; }
+        #outer-wrapper #inner-wrapper-real #main-content .col-sm-6 #form {
+          padding: 20px;
+          background-color: #fff;
+          max-width: 80%; }
+          #outer-wrapper #inner-wrapper-real #main-content .col-sm-6 #form p {
+            font-size: 16px;
+            font-family: "BMW Type Light"; }
+          #outer-wrapper #inner-wrapper-real #main-content .col-sm-6 #form h1 {
+            font-size: 27.17px;
+            font-family: "BMW Type Bold";
+            margin-top: 10px; }
+          #outer-wrapper #inner-wrapper-real #main-content .col-sm-6 #form h2 {
+            font-size: 28.48px;
+            font-family: "Bodoni SVTYTWO ITC TT Book Ita";
+            margin-bottom: 0; }
+          #outer-wrapper #inner-wrapper-real #main-content .col-sm-6 #form hr {
+            border-color: #000;
+            margin-top: 10px;
+            margin-bottom: 20px; }
+          #outer-wrapper #inner-wrapper-real #main-content .col-sm-6 #form input[type='text'],
+          #outer-wrapper #inner-wrapper-real #main-content .col-sm-6 #form input[type='email'],
+          #outer-wrapper #inner-wrapper-real #main-content .col-sm-6 #form select,
+          #outer-wrapper #inner-wrapper-real #main-content .col-sm-6 #form textarea {
+            border-radius: 0;
+            font-family: "BMW Type Light"; }
+          #outer-wrapper #inner-wrapper-real #main-content .col-sm-6 #form .btn-primary {
+            background-color: #1d69d4;
+            border-radius: 0;
+            width: 100%;
+            font-size: 16px;
+            font-family: "BMW Type Bold"; }
+          #outer-wrapper #inner-wrapper-real #main-content .col-sm-6 #form .error {
+            color: #f00 !important;
+            font-style: italic !important;
+            font-weight: normal !important;
+            font-size: 12px !important; }
+      #outer-wrapper #inner-wrapper-real #main-content #hero img {
+        opacity: 0;
+        width: 606px;
+        height: auto;
+        position: relative;
+        top: -100px;
+        right: 0; }
+
+@media (max-width: 768px) {
+  #outer-wrapper #inner-wrapper-fake {
+    position: static;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px; }
+    #outer-wrapper #inner-wrapper-fake .desktop-img {
+      display: none; }
+    #outer-wrapper #inner-wrapper-fake .mobile-img {
+      display: block;
+      width: 100%; }
+    #outer-wrapper #inner-wrapper-fake .container-fluid {
+      padding-left: 0;
+      padding-right: 0; }
+      #outer-wrapper #inner-wrapper-fake .container-fluid #top-content {
+        margin-left: 0;
+        margin-right: 0; }
+        #outer-wrapper #inner-wrapper-fake .container-fluid #top-content header #form-heading {
+          opacity: 1; }
+          #outer-wrapper #inner-wrapper-fake .container-fluid #top-content header #form-heading #heading-contents {
+            max-width: none; }
+      #outer-wrapper #inner-wrapper-fake .container-fluid #main-content {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0; }
+        #outer-wrapper #inner-wrapper-fake .container-fluid #main-content .col-sm-6 {
+          padding-left: 0; }
+          #outer-wrapper #inner-wrapper-fake .container-fluid #main-content .col-sm-6 #form {
+            max-width: none; }
+  #outer-wrapper #inner-wrapper-real {
+    display: none; } }
